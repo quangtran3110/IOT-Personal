@@ -46,7 +46,7 @@ PCF8575 pcf8575_1(0x20);
 #include <ESP8266HTTPClient.h>
 WiFiClient client;
 HTTPClient http;
-#define URL_fw_Bin "https://raw.githubusercontent.com/quangtran3110/personal/8266/A.Phat/A.Phat.ino.bin"
+#define URL_fw_Bin "https://raw.githubusercontent.com/quangtran3110/IOT-Personal/main/A.Phat/build/esp8266.esp8266.nodemcuv2/A.Phat.ino.bin"
 
 const int S0 = 14;
 const int S1 = 12;
