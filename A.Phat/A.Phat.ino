@@ -98,7 +98,6 @@ BLYNK_CONNECTED() {
   rtc_widget.begin();
   blynk_first_connect = true;
   terminal.clear();
-  
 }
 
 void savedata() {
@@ -338,7 +337,6 @@ void update_fw() {
   }
 }
 //-------------------------
-
 void setup() {
   pinMode(S0, OUTPUT);
   pinMode(S1, OUTPUT);
@@ -372,7 +370,6 @@ void setup() {
     Blynk.setProperty(V7, "label", BLYNK_FIRMWARE_VERSION, "- RSSI ", WiFi.RSSI());
   });
 }
-
 void loop() {
   Blynk.run();
   timer.run();
